@@ -6,10 +6,13 @@ import android.transition.Slide;
 import android.transition.Transition;
 import android.transition.Visibility;
 
+import enjaz.tech.androidanimations.R;
+
 public class Transitions {
     public static Transition buildExplodeEnterTransition() {
         Explode enterTransition = new Explode();
         enterTransition.setDuration(500);
+        enterTransition.excludeTarget(R.id.square_red, true);
         return enterTransition;
     }
 
