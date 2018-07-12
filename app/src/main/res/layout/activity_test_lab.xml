@@ -1,0 +1,50 @@
+<LinearLayout android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.widget.Toolbar
+        android:background="?android:colorPrimary"
+        android:elevation="@dimen/elevation_header"
+        android:id="@+id/toolbar"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Title" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/square_red"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/circle_24dp" />
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/activity_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Explode" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Porchetta landjaeger tail meatball t-bone spare ribs. Sirloin pork chop bacon pork belly strip steak. Porchetta ham meatball pig salami short ribs jowl spare ribs sirloin tongue jerky cupim chuck."/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit_button"
+        android:text="Exit" />
+
+
+</LinearLayout>
